@@ -14,7 +14,7 @@ Framwork:
 + Joi (Validate)
 
 Library:
-+ Bcrytp
++ Bcrypt
 + Cors
 
 Authen
