@@ -17,7 +17,7 @@ Library:
 + Bcrypt
 + Cors
 
-Authen
+Authenticate
 + JWT
 
 Database:
