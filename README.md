@@ -17,8 +17,10 @@ Library:
 + Bcrypt
 + Cors
 
-Authenticate
-+ JWT
-
 Database:
 + MongoDB
+
+Functions:
++ Register user and check login with Bcrypt
++ Authenticate with JWT
++ CRUD for user/merchants/rider
