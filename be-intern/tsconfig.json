@@ -1,0 +1,18 @@
+// Configure the TypeScript configuration file
+/*
+We do development using typescript but since we run it on Node.js we need to convert it to javascript. 
+So here we put our all typescript files inside a folder name lib and java script files inside a folder name dist
+*/
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "target": "es6",
+    "outDir": "./dist",
+    "baseUrl": "./lib",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "include": ["lib/**/*.ts"],
+}
